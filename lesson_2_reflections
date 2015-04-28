@@ -25,3 +25,7 @@ Merging two branches combines the changes introduced by each branch since the la
 sets the result as the latest commit of the master branch(?) The branch label of the auxiliary branch is then deleted , and its commits
 are referenced by the merger commit. The diagram visualizes a merge as a new node that now points to both the last master/auxiliary nodes.
 This represents how the merger now tracks commits in both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: saving time. Cons: the sum total of merged changes might lead to loss of functionality, so merging would still
+be done manually in the end, however this isn't really a con and git allows for manual conflict resolution anyway.
