@@ -15,3 +15,7 @@ What are some situations when branches would be helpful in keeping your history 
 Branches are useful anytime different variations of a code are being developed, such as different game modes.
 Branches allow for code that has a common foundation to be developed using different approaches as well, by 
 having a separate history of changes for each branch, from the point of its creation.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams show how the manner in which commits reference their parents prevents visibility of other branches
+when using git log.
