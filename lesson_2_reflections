@@ -19,3 +19,9 @@ having a separate history of changes for each branch, from the point of its crea
 How do the diagrams help you visualize the branch structure?
 The diagrams show how the manner in which commits reference their parents prevents visibility of other branches
 when using git log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines the changes introduced by each branch since the last common commit, applies them and
+sets the result as the latest commit of the master branch(?) The branch label of the auxiliary branch is then deleted , and its commits
+are referenced by the merger commit. The diagram visualizes a merge as a new node that now points to both the last master/auxiliary nodes.
+This represents how the merger now tracks commits in both branches.
