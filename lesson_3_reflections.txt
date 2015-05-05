@@ -4,3 +4,9 @@ to its development.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Whenever a team is editing code in a repository, and yet unknown to yourself changes were made to the remote repository. When your local repository is further developed than the remote one, you wouldn't want rolling it back by pulling outdated commits.( if that's possible? )
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A fork allows to develop your own version of another author's repository, without needing permission to edit their version;
+Clone would be used to create a local version of a repository that exists remotely, and can be subsequently pushed to 
+make your commits available to the public or a private group. Branches can be made locally (and remotely I think?) and can
+be used for exploring variations on the main program, hotfixes, and the like, and can be merged when needed.
