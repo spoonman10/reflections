@@ -10,3 +10,7 @@ A fork allows to develop your own version of another author's repository, withou
 Clone would be used to create a local version of a repository that exists remotely, and can be subsequently pushed to 
 make your commits available to the public or a private group. Branches can be made locally (and remotely I think?) and can
 be used for exploring variations on the main program, hotfixes, and the like, and can be merged when needed.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Keeping track of where the commits common to the local and remote repositories, knowing 
+what changes have been made since the two have been synched.
