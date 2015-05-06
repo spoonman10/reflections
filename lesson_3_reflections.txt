@@ -19,3 +19,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 It would be easier to begin since Git has a learning curve, and early on there's not much to keep track of and compare, however
 once increasing amounts of code were being written, much time would be lost to comparing/fixing manually what Git
 does automatically. I'd likely use dropbox to collaborate if Git wasn't an option (or since I still stuck at it).
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Whenever collaborating with others, pushing to a branch and creating pull requests to master would make sure that all changes
+are reviewed and agreed upon by the group.
